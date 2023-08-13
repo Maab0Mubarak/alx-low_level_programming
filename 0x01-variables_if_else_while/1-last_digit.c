@@ -3,27 +3,29 @@
 #include <stdio.h>
 
 /**
- * main - entry point
+ * main - enrty point
  *
- * Description: print the valu of n statues 
+ * Description: print the value of n status
  *
- * Return: Always 0
-*/
+ * Return: always 0
+ *
+ */
 
 int main(void)
 {
-		int n, digit;
+	int n, digit;
 
-		srand(time(0));
-		n = rand() - RAND_MAX / 2;
-		digit = n % 10;
-		if (digit > 5)
-			printf("Last digit of %i is %i and is greater than 5\n"
-					, n , digit);
-		else if (digit == 0)
-			printf("Last digit of %i is %i and is 0\n" , n , digit);
-		else(digit < 6 && digit != 0)
-			printf("Last digit of %i is %i and is less than 6 and n
-					ot 0\n" , n , digit);
-		return (0);
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	digit = n % 10;
+
+	if (digit > 5)
+		printf("last digit of %d is %d and is greater than 5\n", n, dig
+				it);
+	else if (digit == 0)
+		printf("last digit of %d is %d and is 0\n", n, digit);
+	else
+		printf("last digit of %d is %d and is less than 6 and not 0\n",
+				 n, digit);
+	return (0);
 }
