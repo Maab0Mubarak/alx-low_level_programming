@@ -3,13 +3,13 @@
 /**
  * main - entry point
  *
- * Description: print all single digit numbers in function 'main'
+ * Description: print all single digit numbers in function 'main'.
  *
  * return: always 0
  *
  */
 
-int (void)
+int main(void)
 {
 	int digit = 0;
 
