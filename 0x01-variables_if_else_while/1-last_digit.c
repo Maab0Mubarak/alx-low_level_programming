@@ -3,25 +3,26 @@
 #include <stdio.h>
 
 /**
- * main - enrty point
+ * main - entry point
  *
- * Description: print the value of n status
+ * description: print the value of n status
  *
- * Return: always 0
+ * return: always 0
  *
  */
 
 int main(void)
 {
-	int n, digit;
+	int n;
+	int digit;
 
-	srand(time(0));
+	srand(time(0))
 	n = rand() - RAND_MAX / 2;
-	digit = n % 10;
 
+	digit = n % 10;
 	if (digit > 5)
-		printf("last digit of %d is %d and is greater than 5\n", n, dig
-				it);
+		printf("last digit of %d is %d and is greater than 5\n", n,
+				 digit);
 	else if (digit == 0)
 		printf("last digit of %d is %d and is 0\n", n, digit);
 	else
@@ -29,3 +30,4 @@ int main(void)
 				 n, digit);
 	return (0);
 }
+
