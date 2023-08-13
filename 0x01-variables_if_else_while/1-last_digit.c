@@ -5,7 +5,8 @@
 /**
  * main - entry point
  *
- * description: print the value of n status
+ * description: print the value of n status:
+ * greater than, is zero and its not less than 6.
  *
  * return: always 0
  *
@@ -21,12 +22,12 @@ int main(void)
 
 	digit = n % 10;
 	if (digit > 5)
-		printf("last digit of %d is %d and is greater than 5\n", n,
+		printf("Last digit of %d is %d and is greater than 5\n", n,
 				 digit);
 	else if (digit == 0)
-		printf("last digit of %d is %d and is 0\n", n, digit);
+		printf("Last digit of %d is %d and is 0\n", n, digit);
 	else
-		printf("last digit of %d is %d and is less than 6 and not 0\n",
+		printf("Last digit of %d is %d and is less than 6 and not 0\n",
 				 n, digit);
 	return (0);
 }
