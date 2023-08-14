@@ -5,7 +5,7 @@
  *
  * Description: print all single digit numbers in function.
  *
- * return: always 0
+ * Return: always 0
  *
  */
 
