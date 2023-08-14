@@ -5,7 +5,7 @@
  *
  * Description: print 0-9 using putchar while using int variable
  *
- * return: alway 0
+ * Return: alway 0
  *
  */
 
