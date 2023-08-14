@@ -3,9 +3,9 @@
 /**
  * main - enrty point
  *
- * description: point a-z in reverse
+ * Description: point a-z in reverse
  *
- * return: always 0
+ * Return: always 0
  *
  */
 
