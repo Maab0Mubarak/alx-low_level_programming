@@ -9,7 +9,7 @@
  *
  */
 
-int (void)
+int main(void)
 {
 	int digit = 0;
 
