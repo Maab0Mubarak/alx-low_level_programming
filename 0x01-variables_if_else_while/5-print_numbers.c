@@ -3,7 +3,7 @@
 /**
  * main - entry point
  *
- * Description: print all single digit numbers in function 'main'.
+ * Description: print all single digit numbers in function.
  *
  * return: always 0
  *
